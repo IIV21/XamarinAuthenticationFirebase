@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "16296496856",
+    "project_id": "xfauthentication",
+    "storage_bucket": "xfauthentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16296496856:android:44da2af1a19fe9f89011ad",
+        "android_client_info": {
+          "package_name": "com.companyname.xamarinauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16296496856-knp3824h1pp0eb0vkv5ve794iqpuj601.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhjxn_pZNPVx_2cCj1kRwXFVOF5qD_HFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16296496856-knp3824h1pp0eb0vkv5ve794iqpuj601.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

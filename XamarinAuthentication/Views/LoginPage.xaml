@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinAuthentication.Views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <StackLayout VerticalOptions="Center">
+                <Frame BackgroundColor="Gray"
+                       Margin="98"
+                       CornerRadius="20">
+                    <Label Text="Login"
+                           Margin="20"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           FontSize="Title"
+                           TextColor="Black" />
+                </Frame>
+                
+                <Entry Placeholder="Email"
+                       Text="{Binding Email}"
+                       BackgroundColor="Gray"
+                       Margin="80,20,80,0" />
+                
+                <Entry Placeholder="Password"
+                       Text="{Binding Password}"
+                       BackgroundColor="Gray"
+                       Margin="80,20,80,0" />
+                
+                <Button Text="Login"
+                        BackgroundColor="DarkSlateGray"
+                        Margin="80,20,80,0"
+                        Command="{Binding LoginCommand}" />
+                
+                <Button Text="Register"
+                        BackgroundColor="DarkSlateGray"
+                        Margin="80,20,80,0" 
+                        Command="{Binding GoToRegisterPage}"/>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
